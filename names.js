@@ -11,6 +11,7 @@ function namecomplete(firstName, lastName) {
     return namec    
 }
 
-export {
-    namecomplete
+export default {
+    namecomplete,
+    namec
 }

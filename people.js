@@ -15,9 +15,9 @@ La funzione dovrebbe restituire  un array di stringhe contenenti gli hobby.
 La funzione dovrebbe restituire un oggetto con due proprietà: fullName ed hobbies.
 All'interno della tua funzione, usa le tue due funzioni precedenti per costruire l'oggetto.*/
 
-import { namecomplete } from "./names"
+import { namecomplete, namec } from "./names.js"
 
-import { hobbies } from "./hobbies"
+import { hobbies, arrayhobbies } from "./hobbies.js"
 
 const nome = "Giulio"
 
@@ -29,7 +29,7 @@ const hobby2 = "Caccia"
 
 const hobby3 = "Giardinaggio"
 
-function CI() {
+function ci() {
     namecomplete(nome, cognome)
 
     hobbies(hobby1, hobby2, hobby3)
@@ -42,3 +42,5 @@ function CI() {
     console.log (end)
     
 }
+
+ci()

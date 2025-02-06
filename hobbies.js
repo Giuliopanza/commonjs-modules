@@ -5,10 +5,11 @@ La funzione dovrebbe restituire  un array di stringhe contenenti gli hobby.
 
 function hobbies(hobbie1, hobbie2, hobbie3) {
     let arrayhobbies = []
-    arrayhobbies.push (hobbie1.tostring() ,hobbie2.tostring() ,hobbie3.tostring())
+    arrayhobbies.push (hobbie1 ,hobbie2 ,hobbie3)
     return arrayhobbies    
 }
 
-export {
-    hobbies
+export default {
+    hobbies,
+    arrayhobbies
 }
