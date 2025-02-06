@@ -3,13 +3,14 @@
 La funzione dovrebbe restituire  un array di stringhe contenenti gli hobby.
 2. Esporta la funzione dal file.*/
 
+let arrayhobbies = []
+
 function hobbies(hobbie1, hobbie2, hobbie3) {
-    let arrayhobbies = []
     arrayhobbies.push (hobbie1 ,hobbie2 ,hobbie3)
     return arrayhobbies    
 }
 
-export default {
+export{
     hobbies,
-    arrayhobbies
+    arrayhobbies,
 }

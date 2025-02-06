@@ -3,15 +3,17 @@
 La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
 2. Esporta la funzione dal file.*/
 
+let namec
+
 function namecomplete(firstName, lastName) {
-    let namec = {
+    namec = {
         nome: firstName,
         cognome : lastName
     }
     return namec    
 }
 
-export default {
+export{
     namecomplete,
-    namec
+    namec,
 }
